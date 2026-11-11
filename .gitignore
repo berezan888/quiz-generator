@@ -1,0 +1,126 @@
+<<<<<<< HEAD
+# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+.cache/
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.sqlite3
+.venv/
+venv/
+ENV/
+env/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.DS_Store
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+*.env
+>>>>>>> b09c22eaf3d60f19ad5b5dcdc6ff8a441507e4ab
+
+# IDE
+.vscode/
+.idea/
+<<<<<<< HEAD
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+=======
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+postgres_data/
+
+# Uploads / temp
+uploads/
+tmp/
+temp/
+*.tmp
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+>>>>>>> b09c22eaf3d60f19ad5b5dcdc6ff8a441507e4ab
