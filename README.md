@@ -113,7 +113,7 @@ You will also need a valid Groq API key to enable AI-powered quiz generation.
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/kt0eto/quiz-generator.git
+git clone https://github.com/berezan888/quiz-generator.git
 cd quiz-generator
 ```
 
@@ -124,7 +124,7 @@ Create a `.env` file in the `backend/` directory:
 ```env
 DATABASE_URL=postgresql://quiz_user:quiz_password@db:5432/quiz_db
 JWT_SECRET_KEY=your_secure_secret_key
-OPENAI_API_KEY2=your_groq_api_key
+GROQ_API_KEY=your_groq_api_key
 OPENAI_MODEL=llama-3.3-70b-versatile
 ```
 
@@ -160,9 +160,9 @@ This project was developed collaboratively as a team project.
 
 | Team Member | Responsibilities |
 |---|---|
-| Team Lead | Frontend development and authentication |
-| Team Member 2 | PDF processing and AI integration |
-| Team Member 3 | Quiz functionality, results, Docker configuration, and deployment |
+| Team Lead (I am) | Frontend development and authentication |
+| Serhii Manyk | PDF processing and AI integration |
+| Anastasia Kolisnyk | Quiz functionality, results, Docker configuration, and deployment |
 
 ## 🔐 Security & Configuration
 
